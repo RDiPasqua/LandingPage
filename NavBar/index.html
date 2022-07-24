@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD:NavBar/Index.html
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cèsped Del Baradero</title>
+  <link rel="stylesheet" href="Styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+=======
  
   <head>
     <meta charset="UTF-8" />
@@ -14,43 +29,148 @@
   </head>
   <body>
     <header>
+>>>>>>> b3a1e97054e48a0f854d11624531be00c0122194:NavBar/index.html
       <a href="./index.html">
-        <img class="logo" src="img/Logo.png" alt="logo"
-      /></a>
+        <img class="logo" src="img/Logo.png" alt="logo" /></a>
 
-      <nav>
-        <ul class="NavLinks">
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>Products</li>
-          <li><a href="#"></a>Clients</li>
-          <li><a href="#"></a>About us</li>
+      <div class="navlink">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Servicio">Productos</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#Nombrecompleto">Contacto</a></li>
         </ul>
-      </nav>
-      <a class="Contact" href="#"><button>Contact</button></a>
-    </header>
+      </div>
+      <img src="img/hmenu.png" alt="menuhamburguesa" class="hmenu" />
+    </nav>
+  </header>
 
-    <main>
-      <section id="hero">
-        <div class="HeroConteiner">
-          <h1>Grass Company</h1>
-          <p>
-            Grass Company is a Perthshire business specialising in professional
-            lawn care services and hard and soft landscaping. From grass cutting
-            to full lawn care maintainance; simple paving to complete
-            landscaping, fencing to ponds, Grass Company can provide it!
-          </p>
-          <button class="more">Products</button>
-          <button class="more">Lawn care</button>
+  <main>
+    <article id="hero">
+      <section class="mision">
+        <h1>Cèsped Del Baradero</h1>
+        <p>
+          Césped del Baradero es una joven compañía que se especializa en
+          todos los servicios que el césped requiere. Desde la producción
+          hasta el más amplio servicio de mantenimiento y cuidados que se le
+          pueda brindar.
+        </p>
+      </section>
+      <!-- <section id="hero">
+          <div class="HeroConteiner">
+            
+            <button class="more">Products</button>
+            <button class="more">Lawn care</button>
+          </div>
+        </section> -->
+
+      <section class="misionimgen">
+        <img src="img/heroback.jpeg" alt="Cesped" />
+      </section>
+    </article>
+
+    <h2 class="title" id="Servicio">Nuestro servicios</h2>
+
+    <div class="container">
+      <div class="card">
+        <img src="img/cesped.jpeg" />
+        <h4>Cesped</h4>
+        <p>
+          Nuestros panes de cesped cumple con la mas alta exigencia de los
+          campos de golf
+        </p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <div class="card">
+        <img src="img/cargadora.webp" />
+        <h4>Preparacion del terreno</h4>
+        <p>
+          Contamos con el preparado del terreno para lograr los mejores
+          resultados
+        </p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <div class="card">
+        <img src="img/lawnmachine.jpeg" />
+        <h4>Mantenimiento</h4>
+        <p>
+          Los mejores jardines tambien requieren un amplio servico de cuidados
+        </p>
+        <a href="#">Leer más</a>
+      </div>
+    </div>
+
+    <div class="contactsection">
+      <h2 class="logo">Contacto</h2>
+
+      <div class="contact">
+        <div class="contactform">
+          <h3>Escríbenos</h3>
+          <form action="">
+            <p>
+              <label for="Nombrecompleto">Nombre Completo</label>
+              <input type="text" name="Nombrecompleto" id="Nombrecompleto" />
+            </p>
+            <p>
+              <label> Email </label>
+              <input type="email" name="email" />
+            </p>
+
+            <p>
+              <label> Telefono</label>
+              <input type="text" name="telefono">
+            </p>
+
+            <p>
+              <label>Asunto</label>
+              <input type="text" name="asunto">
+
+            </p>
+
+            <p class="block">
+              <label> Mensaje</label>
+              <textarea name="mensaje" rows="4"></textarea>
+            </p>
+
+            <p class="block">
+              <button type="submit">
+                Enviar
+
+              </button>
+            </p>
+          </form>
+
         </div>
-      </section>
-      <section id="indentiy">
-        <h2>Better Futher</h2>
-        <span>
-          we're a young company forward excellent on production and care of the
-          lawn, with de better tools of the market, our service makes the
-          differential over others.
-        </span>
-      </section>
-    </main>
-  </body>
+        <div class="contactinfo">
+          <h5> Mas informacion</h5>
+          <ul>
+
+            <li class="">📍 Colonia suiza,Baradero</li>
+            <li class=""> ☎️ (3329)494949 </li>
+            <li class=""> ✉️ Contacto@delbaraderocesped.com </li>
+            <li class=""> 🌎 delbaraderocesped.com</li>
+
+          </ul>
+
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>©Copyright 2022 | Todos los derechos reservados |</footer>
+</body>
+<script>
+  const hmenu = document.querySelector(".hmenu");
+  const navlink = document.querySelector(".navlink");
+
+  hmenu.addEventListener("click", () => {
+    navlink.classList.toggle("mobile-menu");
+  });
+</script>
+
 </html>
